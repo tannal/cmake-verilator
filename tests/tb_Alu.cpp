@@ -2,7 +2,6 @@
 #include "verilated.h"
 #include <iostream>
 #include <vector>
-#include <iomanip>
 
 void printBinary(uint8_t value) {
     for (int i = 3; i >= 0; i--) {
